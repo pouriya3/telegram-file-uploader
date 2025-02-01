@@ -5,7 +5,7 @@ sudo apt install -y curl
  
 echo "Downloading telegramUploader.sh..."
  
-wget -q "RAW_GITHUB_URL/telegramUploader.sh" -O telegramUploader.sh
+wget -q "https://raw.githubusercontent.com/pouriya3/telegram-file-uploader/refs/heads/main/telegramUploader.sh" -O telegramUploader.sh
 chmod +x telegramUploader.sh
  
 echo ""  
