@@ -16,3 +16,12 @@ After installation, you can use the script to upload files to Telegram. Detailed
 
 After installation, the script will prompt you to enter your Telegram bot token (which you can obtain from BotFather) and your chat ID (which you can get from the @ChatidTelegramBot on Telegram . You should first send /start to your bot with your telegram account) .
 
+### Example Usage
+
+To upload a file to Telegram using the `telegramUploader.sh` script, use the following command:
+
+```sh
+./telegramUploader.sh ./testFileToSendTelegram.log
+```
+
+Replace `./testFileToSendTelegram.log` with the path to the file you want to upload.
